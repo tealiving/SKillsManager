@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Report Summarizer"
+  short_description: "Generate daily weekly monthly reports from git commits"
+  default_prompt: "Use $git-report-summarizer to collect commits from multiple repositories and produce a weekly report with my template."
