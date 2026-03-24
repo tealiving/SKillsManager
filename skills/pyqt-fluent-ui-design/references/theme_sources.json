@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-02-28",
+  "sources": [
+    {
+      "name": "pyqt-fluent-widgets",
+      "display_name": "PyQt-Fluent-Widgets",
+      "style_family": "fluent",
+      "frameworks": ["PyQt5", "PyQt6", "PySide6"],
+      "license": "GPL-3.0",
+      "url": "https://codeload.github.com/zhiyiYo/PyQt-Fluent-Widgets/zip/dfcbdb3a5503b473a168b84ded6768d6c19a41e9",
+      "version": "commit-dfcbdb3",
+      "archive_type": "zip",
+      "sha256": "2cd2612990642cdc4e3828fe25a0f5852865b9b32362a3782b23ec2b43f70c86",
+      "enabled": true,
+      "notes": "官方仓库 master 分支提交快照（2026-02-07）。"
+    },
+    {
+      "name": "pyqtdarktheme",
+      "display_name": "PyQtDarkTheme",
+      "style_family": "flat-dark-light",
+      "frameworks": ["PyQt5", "PyQt6", "PySide2", "PySide6"],
+      "license": "MIT",
+      "url": "https://codeload.github.com/5yutan5/PyQtDarkTheme/zip/96eb7e368039ab446952573bafc17d54b7ef5123",
+      "version": "commit-96eb7e3",
+      "archive_type": "zip",
+      "sha256": "a78a50ee30b8fe36f612fb8016a61ce5e4fd6c0298b6f5624b2bae0aa4e3e089",
+      "enabled": true,
+      "notes": "PyQt/PySide 通用暗色主题实现。"
+    },
+    {
+      "name": "qt-material",
+      "display_name": "qt-material",
+      "style_family": "material",
+      "frameworks": ["PyQt5", "PyQt6", "PySide2", "PySide6"],
+      "license": "BSD-2-Clause",
+      "url": "https://codeload.github.com/UN-GCPDS/qt-material/zip/5a99be3d6914cd5570282b29968aa39a7f8d1408",
+      "version": "commit-5a99be3",
+      "archive_type": "zip",
+      "sha256": "02c4286a2aef09a1fe231a36d181adc8b3f3ca2802aca7ba8a4239b6b84eadba",
+      "enabled": true,
+      "notes": "Material Design 风格样式库。"
+    },
+    {
+      "name": "qdarkstyle",
+      "display_name": "QDarkStyleSheet",
+      "style_family": "dark-style",
+      "frameworks": ["PyQt5", "PyQt6", "PySide2", "PySide6"],
+      "license": "MIT",
+      "url": "https://codeload.github.com/ColinDuquesnoy/QDarkStyleSheet/zip/6f3962e63749893f951be73ebfec93e83fffebf2",
+      "version": "commit-6f3962e",
+      "archive_type": "zip",
+      "sha256": "2121e7faaac062967b82b2ab3ee65e8444cf3bd2f4ce2fe7c40cb8f1542d3410",
+      "enabled": true,
+      "notes": "成熟的 Qt 深色样式方案。"
+    }
+  ]
+}

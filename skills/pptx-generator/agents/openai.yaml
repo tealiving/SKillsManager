@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPTX Generator"
+  short_description: "模板驱动的通用 PPTX 生成与 JSON 渲染"
+  default_prompt: "Use $pptx-generator to output JSON (per schema.md) and render a themed PPTX."

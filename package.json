@@ -1,0 +1,25 @@
+{
+  "name": "@your-org/codex-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Internal distribution package for Codex skills.",
+  "type": "module",
+  "bin": {
+    "codex-skills": "./bin/codex-skills.mjs"
+  },
+  "files": [
+    "README.md",
+    "bin",
+    "catalog",
+    "docs/release-checklist.md",
+    "docs/usage",
+    "lib",
+    "scripts",
+    "skills"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "pack:dry-run": "npm pack --dry-run",
+    "verify:release": "npm test && npm run pack:dry-run"
+  }
+}

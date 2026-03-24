@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Agent LLM Orchestrator"
+  short_description: "LLM-first PPT planning and HTML-to-JSON execution pipeline"
+  default_prompt: "Use $ppt-agent-llm-orchestration to run an LLM-first PPT workflow with director HTML planning and deterministic JSON execution."

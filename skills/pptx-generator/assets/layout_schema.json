@@ -1,0 +1,188 @@
+{
+  "schemas": {
+    "content": {
+      "max_bullets": 5,
+      "max_paragraph_chars": 220
+    },
+    "image-left": {
+      "max_bullets": 4,
+      "max_paragraph_chars": 180
+    },
+    "image-right": {
+      "max_bullets": 4,
+      "max_paragraph_chars": 180
+    },
+    "chart": {
+      "max_bullets": 3,
+      "max_paragraph_chars": 160
+    },
+    "timeline": {
+      "max_bullets": 5,
+      "max_paragraph_chars": 160
+    },
+    "comparison": {
+      "max_bullets": 6,
+      "max_paragraph_chars": 160
+    },
+    "pros-cons": {
+      "max_bullets": 6,
+      "max_paragraph_chars": 160
+    },
+    "matrix-2x2": {
+      "max_bullets": 4,
+      "max_paragraph_chars": 140
+    },
+    "swot": {
+      "max_bullets": 8,
+      "max_paragraph_chars": 160
+    },
+    "risk-matrix": {
+      "max_bullets": 8,
+      "max_paragraph_chars": 160
+    },
+    "four-quadrant": {
+      "max_bullets": 8,
+      "max_paragraph_chars": 160
+    }
+  },
+  "semantic_rules": [
+    {
+      "layout_type": "swot",
+      "keywords": [
+        "SWOT",
+        "????",
+        "????"
+      ],
+      "priority": 95
+    },
+    {
+      "layout_type": "risk-matrix",
+      "keywords": [
+        "????",
+        "????",
+        "????"
+      ],
+      "priority": 90
+    },
+    {
+      "layout_type": "four-quadrant",
+      "keywords": [
+        "???",
+        "???",
+        "2x2",
+        "??"
+      ],
+      "priority": 88
+    },
+    {
+      "layout_type": "pros-cons",
+      "keywords": [
+        "???",
+        "??",
+        "??",
+        "??",
+        "??",
+        "??",
+        "??",
+        "??",
+        "??",
+        "??"
+      ],
+      "priority": 85
+    },
+    {
+      "layout_type": "comparison",
+      "keywords": [
+        "??",
+        "??",
+        "??",
+        "??",
+        "A/B",
+        "vs",
+        "VS",
+        "???"
+      ],
+      "priority": 80
+    },
+    {
+      "layout_type": "timeline",
+      "keywords": [
+        "???",
+        "???",
+        "??",
+        "??",
+        "??",
+        "??",
+        "??",
+        "??",
+        "??"
+      ],
+      "priority": 70
+    },
+    {
+      "layout_type": "chart",
+      "keywords": [
+        "??",
+        "??",
+        "??",
+        "??",
+        "??",
+        "??",
+        "??",
+        "chart"
+      ],
+      "priority": 60
+    },
+    {
+      "layout_type": "image",
+      "keywords": [
+        "??",
+        "??",
+        "??",
+        "??",
+        "??",
+        "??",
+        "???",
+        "??",
+        "??",
+        "??",
+        "??",
+        "??"
+      ],
+      "priority": 50
+    }
+  ],
+  "quadrant_colors": {
+    "swot": {
+      "strength": "#4CAF50",
+      "weakness": "#F44336",
+      "opportunity": "#2196F3",
+      "threat": "#FF9800"
+    },
+    "risk-matrix": {
+      "high_low": "#FFA726",
+      "high_high": "#E53935",
+      "low_low": "#66BB6A",
+      "low_high": "#42A5F5"
+    },
+    "four-quadrant": [
+      "#8BC34A",
+      "#03A9F4",
+      "#FFB74D",
+      "#9575CD"
+    ],
+    "matrix-2x2": [
+      "#8BC34A",
+      "#03A9F4",
+      "#FFB74D",
+      "#9575CD"
+    ]
+  },
+  "icon_assets": {
+    "strength": "icons/strength.svg",
+    "weakness": "icons/weakness.svg",
+    "opportunity": "icons/opportunity.svg",
+    "threat": "icons/threat.svg",
+    "risk": "icons/risk.svg"
+  }
+}
