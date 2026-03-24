@@ -34,43 +34,43 @@ npx @your-org/codex-skills install <skill-name>
 
 当前仓库已导入 35 个可直接安装的 skills。
 
-| Skill | 目录 | 来源 | 人类入口 | Agent 入口 | 分发状态 |
-|---|---|---|---|---|---|
-| `architecture-review-checklist` | `skills/architecture-review-checklist/` | `codex` | `-` | `SKILL.md` | `installable` |
-| `better-auth-best-practices` | `skills/better-auth-best-practices/` | `agents` | `-` | `SKILL.md` | `installable` |
-| `brainstorming` | `skills/brainstorming/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `chinese-code-comments` | `skills/chinese-code-comments/` | `codex` | `-` | `SKILL.md` | `installable` |
-| `dispatching-parallel-agents` | `skills/dispatching-parallel-agents/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `enterprise-layered-architecture` | `skills/enterprise-layered-architecture/` | `codex` | `-` | `SKILL.md` | `installable` |
-| `executing-plans` | `skills/executing-plans/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `figma` | `skills/figma/` | `codex` | `-` | `SKILL.md` | `installable` |
-| `find-skills` | `skills/find-skills/` | `agents` | `-` | `SKILL.md` | `installable` |
-| `finishing-a-development-branch` | `skills/finishing-a-development-branch/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `frontend-design` | `skills/frontend-design/` | `agents` | `-` | `SKILL.md` | `installable` |
-| `git-report-summarizer` | `skills/git-report-summarizer/` | `codex` | `README.md` | `SKILL.md` | `installable` |
-| `openai-docs` | `skills/openai-docs/` | `codex-system` | `-` | `SKILL.md` | `installable` |
-| `planning-with-files` | `skills/planning-with-files/` | `codex-nested` | `-` | `SKILL.md` | `installable` |
-| `pdf` | `skills/pdf/` | `codex` | `-` | `SKILL.md` | `installable` |
-| `ppt-agent-llm-orchestration` | `skills/ppt-agent-llm-orchestration/` | `codex` | `-` | `SKILL.md` | `installable` |
-| `pptx` | `skills/pptx/` | `codex` | `-` | `SKILL.md` | `installable` |
-| `pptx-generator` | `skills/pptx-generator/` | `codex` | `-` | `SKILL.md` | `installable` |
-| `pyqt-fluent-ui-design` | `skills/pyqt-fluent-ui-design/` | `codex` | `-` | `SKILL.md` | `installable` |
-| `python-enterprise-development` | `skills/python-enterprise-development/` | `codex` | `-` | `SKILL.md` | `installable` |
-| `python-project-structure` | `skills/python-project-structure/` | `agents` | `-` | `SKILL.md` | `installable` |
-| `receiving-code-review` | `skills/receiving-code-review/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `requesting-code-review` | `skills/requesting-code-review/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `skill-creator` | `skills/skill-creator/` | `codex-system` | `-` | `SKILL.md` | `installable` |
-| `skill-installer` | `skills/skill-installer/` | `codex-system` | `-` | `SKILL.md` | `installable` |
-| `subagent-driven-development` | `skills/subagent-driven-development/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `systematic-debugging` | `skills/systematic-debugging/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `test-driven-development` | `skills/test-driven-development/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `ui-ux-pro-max` | `skills/ui-ux-pro-max/` | `agents` | `-` | `SKILL.md` | `installable` |
-| `using-git-worktrees` | `skills/using-git-worktrees/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `using-superpowers` | `skills/using-superpowers/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `verification-before-completion` | `skills/verification-before-completion/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `writing-plans` | `skills/writing-plans/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `writing-skills` | `skills/writing-skills/` | `superpowers` | `-` | `SKILL.md` | `installable` |
-| `xlsx` | `skills/xlsx/` | `agents` | `-` | `SKILL.md` | `installable` |
+| Skill | 技能简介 | 目录 | 来源 | 人类入口 | Agent 入口 | 分发状态 |
+|---|---|---|---|---|---|---|
+| `architecture-review-checklist` | 架构评审与分层合规检查 | `skills/architecture-review-checklist/` | `codex` | `-` | `SKILL.md` | `installable` |
+| `better-auth-best-practices` | Better Auth 集成最佳实践 | `skills/better-auth-best-practices/` | `agents` | `-` | `SKILL.md` | `installable` |
+| `brainstorming` | 创意需求澄清与方案探索 | `skills/brainstorming/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `chinese-code-comments` | 中文注释与 reST 文档规范 | `skills/chinese-code-comments/` | `codex` | `-` | `SKILL.md` | `installable` |
+| `dispatching-parallel-agents` | 并行拆分多代理任务 | `skills/dispatching-parallel-agents/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `enterprise-layered-architecture` | 企业分层架构设计约束 | `skills/enterprise-layered-architecture/` | `codex` | `-` | `SKILL.md` | `installable` |
+| `executing-plans` | 按计划分阶段执行实现 | `skills/executing-plans/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `figma` | Figma 设计上下文转代码 | `skills/figma/` | `codex` | `-` | `SKILL.md` | `installable` |
+| `find-skills` | 发现并安装合适 skills | `skills/find-skills/` | `agents` | `-` | `SKILL.md` | `installable` |
+| `finishing-a-development-branch` | 开发分支收尾与集成 | `skills/finishing-a-development-branch/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `frontend-design` | 高质量前端界面设计 | `skills/frontend-design/` | `agents` | `-` | `SKILL.md` | `installable` |
+| `git-report-summarizer` | Git 提交日报周报月报生成 | `skills/git-report-summarizer/` | `codex` | `README.md` | `SKILL.md` | `installable` |
+| `openai-docs` | OpenAI 官方文档检索与选型 | `skills/openai-docs/` | `codex-system` | `-` | `SKILL.md` | `installable` |
+| `planning-with-files` | 文件化复杂任务规划与跟踪 | `skills/planning-with-files/` | `codex-nested` | `-` | `SKILL.md` | `installable` |
+| `pdf` | PDF 读写审阅与渲染检查 | `skills/pdf/` | `codex` | `-` | `SKILL.md` | `installable` |
+| `ppt-agent-llm-orchestration` | 多代理 PPT 编排生成 | `skills/ppt-agent-llm-orchestration/` | `codex` | `-` | `SKILL.md` | `installable` |
+| `pptx` | PPTX 读取编辑与处理 | `skills/pptx/` | `codex` | `-` | `SKILL.md` | `installable` |
+| `pptx-generator` | PPT 模板生成与渲染 | `skills/pptx-generator/` | `codex` | `-` | `SKILL.md` | `installable` |
+| `pyqt-fluent-ui-design` | PyQt Fluent UI 主题与布局 | `skills/pyqt-fluent-ui-design/` | `codex` | `-` | `SKILL.md` | `installable` |
+| `python-enterprise-development` | Python 企业级分层开发 | `skills/python-enterprise-development/` | `codex` | `-` | `SKILL.md` | `installable` |
+| `python-project-structure` | Python 项目结构与 API 规划 | `skills/python-project-structure/` | `agents` | `-` | `SKILL.md` | `installable` |
+| `receiving-code-review` | 消化并验证评审意见 | `skills/receiving-code-review/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `requesting-code-review` | 发起代码评审前检查 | `skills/requesting-code-review/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `skill-creator` | 创建或升级 skill 模板 | `skills/skill-creator/` | `codex-system` | `-` | `SKILL.md` | `installable` |
+| `skill-installer` | 从仓库安装 Codex skills | `skills/skill-installer/` | `codex-system` | `-` | `SKILL.md` | `installable` |
+| `subagent-driven-development` | 子代理驱动的分工开发 | `skills/subagent-driven-development/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `systematic-debugging` | 系统化定位和修复问题 | `skills/systematic-debugging/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `test-driven-development` | TDD 驱动实现与回归验证 | `skills/test-driven-development/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `ui-ux-pro-max` | UI/UX 方案设计与优化 | `skills/ui-ux-pro-max/` | `agents` | `-` | `SKILL.md` | `installable` |
+| `using-git-worktrees` | 用 git worktree 隔离开发 | `skills/using-git-worktrees/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `using-superpowers` | 启用并规范使用 superpowers | `skills/using-superpowers/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `verification-before-completion` | 完成前强制验证结果 | `skills/verification-before-completion/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `writing-plans` | 多步骤实施计划编写 | `skills/writing-plans/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `writing-skills` | skill 编写与验证规范 | `skills/writing-skills/` | `superpowers` | `-` | `SKILL.md` | `installable` |
+| `xlsx` | 表格文件处理与生成 | `skills/xlsx/` | `agents` | `-` | `SKILL.md` | `installable` |
 
 ## Planned Catalog Governance
 
@@ -97,4 +97,4 @@ npx @your-org/codex-skills install <skill-name>
 
 ## Maintenance Rule
 
-新增或删除 skill 时，同时更新本页的 `Skills Index` 表格和 `catalog/skills.json`。
+新增或删除 skill 时，同时更新本页的 `Skills Index` 表格（含技能简介）和 `catalog/skills.json`。
