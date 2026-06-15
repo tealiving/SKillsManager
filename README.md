@@ -32,7 +32,7 @@ npx @your-org/codex-skills install <skill-name>
 
 ## Skills Index
 
-当前仓库已导入 35 个可直接安装的 skills。
+当前仓库已导入 36 个可直接安装的 skills。
 
 | Skill | 技能简介 | 目录 | 来源 | 人类入口 | Agent 入口 | 分发状态 |
 |---|---|---|---|---|---|---|
@@ -55,6 +55,7 @@ npx @your-org/codex-skills install <skill-name>
 | `pptx` | PPTX 读取编辑与处理 | `skills/pptx/` | `codex` | `-` | `SKILL.md` | `installable` |
 | `pptx-generator` | PPT 模板生成与渲染 | `skills/pptx-generator/` | `codex` | `-` | `SKILL.md` | `installable` |
 | `pyqt-fluent-ui-design` | PyQt Fluent UI 主题与布局 | `skills/pyqt-fluent-ui-design/` | `codex` | `-` | `SKILL.md` | `installable` |
+| `pyqt-nas-online-update` | PyQt NAS 在线更新 (UOT) | `skills/pyqt-nas-online-update/` | `codex` | `-` | `SKILL.md` | `installable` |
 | `python-enterprise-development` | Python 企业级分层开发 | `skills/python-enterprise-development/` | `codex` | `-` | `SKILL.md` | `installable` |
 | `python-project-structure` | Python 项目结构与 API 规划 | `skills/python-project-structure/` | `agents` | `-` | `SKILL.md` | `installable` |
 | `receiving-code-review` | 消化并验证评审意见 | `skills/receiving-code-review/` | `superpowers` | `-` | `SKILL.md` | `installable` |
